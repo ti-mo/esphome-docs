@@ -104,6 +104,7 @@ Configuration variables:
   - ``2.90in-bV3`` - B/W rendering only
   - ``4.20in``
   - ``4.20in-bV2`` - B/W rendering only
+  - ``4.20in-bV2-bwr`` - BWR rendering enabled (uses double the amount of RAM for the display buffer as B/W rendering)
   - ``5.83in``
   - ``5.83inv2``
   - ``7.50in``
