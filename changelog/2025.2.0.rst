@@ -126,6 +126,16 @@ Breaking Changes
 - Remove arm/v7 container image support :esphomepr:`8194` by :ghuser:`jesserockz` (breaking-change)
 - [esp32_rmt] Set pull-up and open-drain modes based on pin schema :esphomepr:`8178` by :ghuser:`swoboda1337` (breaking-change)
 
+Beta Changes
+^^^^^^^^^^^^
+
+- [core] Ignore dot-prefixed config entries when looking for target platform :esphomepr:`8240` by :ghuser:`jesserockz`
+- Bump zeroconf to 0.144.1 :esphomepr:`8238` by :ghuser:`bdraco`
+- [core] Fix ``config_dir`` for dashboard :esphomepr:`8242` by :ghuser:`jesserockz`
+- [cse7766] Remove ``stream`` dependency :esphomepr:`7720` by :ghuser:`gabest11`
+- [graph] Remove ``stream`` dependency :esphomepr:`8243` by :ghuser:`kbx81`
+- [modbus_controller] Remove `stream` dependency :esphomepr:`8244` by :ghuser:`kbx81`
+
 All changes
 ^^^^^^^^^^^
 
@@ -305,6 +315,12 @@ All changes
 - GDEY042T81 e-paper displays support :esphomepr:`8061` by :ghuser:`mgruener`
 - Add support for Waveshare 7.3" ACeP 7-Color display :esphomepr:`6380` by :ghuser:`NeilSCGH`
 - Bump esphome-dashboard to 20250212.0 :esphomepr:`8235` by :ghuser:`jesserockz`
+- [core] Ignore dot-prefixed config entries when looking for target platform :esphomepr:`8240` by :ghuser:`jesserockz`
+- Bump zeroconf to 0.144.1 :esphomepr:`8238` by :ghuser:`bdraco`
+- [core] Fix ``config_dir`` for dashboard :esphomepr:`8242` by :ghuser:`jesserockz`
+- [cse7766] Remove ``stream`` dependency :esphomepr:`7720` by :ghuser:`gabest11`
+- [graph] Remove ``stream`` dependency :esphomepr:`8243` by :ghuser:`kbx81`
+- [modbus_controller] Remove `stream` dependency :esphomepr:`8244` by :ghuser:`kbx81`
 
 Past Changelogs
 ---------------
