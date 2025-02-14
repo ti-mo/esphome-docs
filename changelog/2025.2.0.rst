@@ -135,6 +135,10 @@ Beta Changes
 - [cse7766] Remove ``stream`` dependency :esphomepr:`7720` by :ghuser:`gabest11`
 - [graph] Remove ``stream`` dependency :esphomepr:`8243` by :ghuser:`kbx81`
 - [modbus_controller] Remove `stream` dependency :esphomepr:`8244` by :ghuser:`kbx81`
+- [online_image]Fix reset if buffer not allocated :esphomepr:`8236` by :ghuser:`guillempages`
+- [logger] Fix bug causing global log level to be overwritten :esphomepr:`8248` by :ghuser:`swoboda1337`
+- Add support for the DAC on the S2 :esphomepr:`8030` by :ghuser:`maraid`
+- Fix crash when storage file doesnt exist yet :esphomepr:`8249` by :ghuser:`jesserockz`
 
 All changes
 ^^^^^^^^^^^
@@ -321,6 +325,10 @@ All changes
 - [cse7766] Remove ``stream`` dependency :esphomepr:`7720` by :ghuser:`gabest11`
 - [graph] Remove ``stream`` dependency :esphomepr:`8243` by :ghuser:`kbx81`
 - [modbus_controller] Remove `stream` dependency :esphomepr:`8244` by :ghuser:`kbx81`
+- [online_image]Fix reset if buffer not allocated :esphomepr:`8236` by :ghuser:`guillempages`
+- [logger] Fix bug causing global log level to be overwritten :esphomepr:`8248` by :ghuser:`swoboda1337`
+- Add support for the DAC on the S2 :esphomepr:`8030` by :ghuser:`maraid`
+- Fix crash when storage file doesnt exist yet :esphomepr:`8249` by :ghuser:`jesserockz`
 
 Past Changelogs
 ---------------
